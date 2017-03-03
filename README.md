@@ -27,6 +27,25 @@ How to get this
   - ex) `https://foobar.qiita.com/` <- `foobar` is organization name.
 - qiita access token -> see: https://qiita.com/api/v2/docs#認証認可
 
+
+### Create article
+
+`test_bot /create template (?<id>\d+) *(?<coediting>coediting)?/`
+
+For example
+
+```
+@foobar create template 10
+```
+
+Created article using template id 10.
+
+You can article by coediting mode also.
+
+```
+@foobar create template 10 coediting
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
