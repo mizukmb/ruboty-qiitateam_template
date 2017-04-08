@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["mizukmb"]
   spec.email         = ["mizukmb6@gmail.com"]
 
-  spec.summary       = %q{}
-  spec.description   = %q{}
-  spec.homepage      = ""
+  spec.summary       = %q{A ruboty module to create a Qiita:Team document from registered template}
+  spec.description   = %q{A ruboty module to create a Qiita:Team document from registered template}
+  spec.homepage      = "https://github.com/mizukmb/ruboty-qiitateam_template"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
